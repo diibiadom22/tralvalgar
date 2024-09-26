@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+   font-family: "mulish", sans-serif;
+}
+
+.navbar {
+    padding: 0!important;
+}
+
+ .hero-btn{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #458ff6;
+}
+
+.hero-space{
+    margin: 10% auto;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    br {
+        display: none;
+    }
+
+    .hero-space {
+        margin-bottom: 40px;
+    }
+
+    .hero-space h1 {
+        font-size: 24px;
+    }
+
+    .hero-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+    .hero-space h1 {
+        font-size: 44px;
+    }
+
+    .hero-space p {
+        font-size: 24px;
+    }
+}
+
+.row{
+margin: 0 !important;
+}
+
+
+.service-header p {
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 992px) {
+    br {
+        display: none;
+    }
+    
+    .hero-space {
+        margin-bottom: 40px;
+    }
+    .hero-space h1 {
+        font-size: 24px;
+    }
+    .hero-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+    .hero-space h1 {
+        font-size: 44px;
+    }
+    .hero-space p {
+        font-size: 24px;
+    }
+
+    .myCard {
+        height: 382px !important;
+    }
+}
+
+.serv-btn{
+    margin-left: 500px;
+    color: blue;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius:20px;
+    margin-top: 40px;
+}
+
+.wid{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.try{
+    
+    margin-left:700px;
+    margin-top: -300px;
+}
+
+.btn-4{
+    border-radius:  18px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+}
+
+.apps{
+    width: 500px;
+    margin-top: -300px;
+    margin-left: 600px;
+    
+}
+
+.trap{
+    margin-top: 160px;
+    margin-left: 100px;
+
+}
+
+.dry{
+    margin-top: 150px;
+}
+.guys{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.arrow-line{
+    margin-left: 510px;
+}
+
+.maga{
+    margin-bottom: 700px;
+}
